@@ -1,46 +1,102 @@
-# Getting Started with Create React App and Redux
+# Ecommerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+___
+## Overview 
 
-## Available Scripts
+Welcome to the E-Commerce Project! This project is a React-based e-commerce application that uses Redux for state management and `my-json-server` for a dummy API service. 
+___
 
-In the project directory, you can run:
+## Live
 
-### `npm start`
+Live Link:- <a href="https://.netlify.app/" target=_blank>E-commerce</a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+___
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Navbar
+- Displays the count of items in the cart.
+- Shows relevant navigation links.
 
-### `npm test`
+### All Products Page
+- Lists products fetched from the API.
+- Products can be edited inline by clicking the "pencil" button.
+  - **Alert/Notification:** An alert or notification appears after editing a product.
+- Products can be deleted by clicking the "delete" button.
+  - **Alert/Notification:** An alert or notification appears after deleting a product.
+- Sort products by price.
+  - **Sort Button:** Sorts products by price.
+  - **Cross Button:** Removes the sort filter when clicked.
+- Add products to the cart.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Create Page
+- Allows adding a new product to the database.
+  - **Alert/Notification:** An alert or notification appears after adding a product.
 
-### `npm run build`
+### Product Detail Page
+- Displays all details of a selected product.
+- Provides a button to add the product to the cart.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Cart Page
+- Displays all items in the cart.
+- Handles errors and success alerts.
+- Shows appropriate alerts for API errors and success.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+___
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,html,css,js,react,redux" />
+  </a>
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Frontend**: React, CSS Modules, Toastify, Spinner-Material, React Router,Redux Toolkit
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React: For building the user interface.
+- Redux: For state management.
+- my-json-server: For the dummy API service.
+- React-Router: For routing.
+___
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/MdIrfan-ul/Ecommerce.git
+   ```
 
-## Learn More
+2. Navigate to the Project Directory:
+    cd ecommerce
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install Dependencies:
+    ```bash
+    npm install
+    ```
+4. Dummy Json Server:
+-  create db.json file on your repository.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Start the Development Server:
+    ```bash
+    npm start
+    ```
+___
+
+## Configuration
+- Redux is used for state management. Data persistence is implemented to maintain cart items after a page refresh.
+
+## Usage
+- Navigate through the application using the Navbar.
+- Edit products inline on the All Products Page.
+- Delete products from the list.
+- Sort products by price and remove the sort filter.
+- Add products to the cart and manage them on the Cart Page.
+- Add new products using the Create Page.
+- View detailed information about products on the Product Detail Page.
+
+___
+
+
+Developed with ❤️ by [Mohamed Irfanullah M]
+
+___

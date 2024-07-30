@@ -1,0 +1,66 @@
+/* Carts.module.css */
+.yourCart{
+    text-align: center;
+    margin: 10px;
+    font-size: 1.8rem;
+    font-weight: 550;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cartContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid black; */
+    gap: 1rem;
+    margin:10px;
+}
+
+.cartItem {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    padding: 1rem;
+    border: 1px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.productImage img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform ease-in-out .4s;
+}
+.productImage img:hover{
+    transform: scale(1.2);
+}
+
+.productDetails {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.productName {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+.productPrice {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.ratings {
+    font-size: 0.9rem;
+    color: #888;
+}
+.star{
+    color:#ffd700;
+}
