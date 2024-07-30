@@ -19,7 +19,7 @@ export const fetchProducts = createAsyncThunk(
       // console.log(data);
       return data;
     } catch (error) {
-      console.error("Failed to Fetch Produts",error);
+      console.log("Failed to Fetch Produts",error);
       return rejectWithValue(error.message);
     }
   }
@@ -37,7 +37,7 @@ export const addProducts = createAsyncThunk(
       const { data } = response;
       return data;
     } catch (error) {
-      console.error("Failed to Add",error);
+      console.log("Failed to Add",error);
       return rejectWithValue(error.message);
     }
   }
@@ -55,7 +55,7 @@ export const fetchProductsById = createAsyncThunk(
       const { data } = response;
       return data;
     } catch (error) {
-      console.error("Failed to fetch products by id",error.message);
+      console.log("Failed to fetch products by id",error.message);
       return rejectWithValue(error.response ? error.response.data : error.message);
     }
   }
@@ -74,7 +74,7 @@ export const toUpdateProducts = createAsyncThunk(
       const { data } = response;
       return data;
     } catch (error) {
-      console.error("Failed to update product",error.message);
+      console.log("Failed to update product",error.message);
       return rejectWithValue(error.message);
     }
   }
@@ -91,7 +91,7 @@ export const removeProducts = createAsyncThunk(
       );
       return id;
     } catch (error) {
-      console.error("Failed to delete product",error);
+      console.log("Failed to delete product",error);
       return rejectWithValue(error.message);
     }
   }

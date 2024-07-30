@@ -1,0 +1,116 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Men's Casual Shirt",
+        "category": "mensFashion",
+        "price": 409,
+        "imageUrl": "https://m.media-amazon.com/images/I/71jtkd3vr0L._AC_UL480_FMwebp_QL65_.jpg",
+        "description": "A comfortable casual shirt made from breathable fabric, perfect for everyday wear.",
+        "brand": "CasualWear",
+        "rating": 4.2,
+        "stock": 50
+      },
+      {
+        "id": 2,
+        "title": "Men's Formal Shoes",
+        "category": "mensFashion",
+        "price": 1799,
+        "imageUrl": "https://m.media-amazon.com/images/I/61NgGzJO3HL._AC_UL480_FMwebp_QL65_.jpg",
+        "description": "Elegant formal shoes crafted from premium leather, ideal for office and formal events.",
+        "brand": "Elegance",
+        "rating": 4.5,
+        "stock": 30
+      },
+      {
+        "id": 3,
+        "title": "Men's Denim Jacket",
+        "category": "mensFashion",
+        "price": 990,
+        "imageUrl": "https://m.media-amazon.com/images/I/61G1ZLzdBeS._AC_UL480_FMwebp_QL65_.jpg",
+        "description": "Stylish denim jacket with a modern fit, perfect for casual outings.",
+        "brand": "DenimCo",
+        "rating": 4.1,
+        "stock": 20
+      },
+      {
+        "id": 4,
+        "title": "Women's Summer Dress",
+        "category": "womensFashion",
+        "price": 446,
+        "imageUrl": "https://m.media-amazon.com/images/I/71ofsmesvpL._AC_UL480_FMwebp_QL65_.jpg",
+        "description": "Light and breezy summer dress with a floral print, designed for hot weather.",
+        "brand": "SummerStyle",
+        "rating": 4.3,
+        "stock": 40
+      },
+      {
+        "id": 5,
+        "title": "Women's Handbag",
+        "category": "womensFashion",
+        "price": 1143,
+        "imageUrl": "https://m.media-amazon.com/images/I/91OwukD6O8L._AC_UL480_FMwebp_QL65_.jpg",
+        "description": "Elegant handbag with ample space and high-quality leather, suitable for various occasions.",
+        "brand": "LuxHandbags",
+        "rating": 4.6,
+        "stock": 25
+      },
+      {
+        "id": 6,
+        "title": "Women's High Heels",
+        "category": "womensFashion",
+        "price": 999,
+        "imageUrl": "https://m.media-amazon.com/images/I/519jRRBaTEL._AC_UL480_FMwebp_QL65_.jpg",
+        "description": "Chic high heels with a sleek design, perfect for formal events or a night out.",
+        "brand": "Stiletto",
+        "rating": 4.4,
+        "stock": 35
+      },
+      {
+        "id": 7,
+        "title": "OnePlus 12R",
+        "category": "Electronics",
+        "price": 39998,
+        "imageUrl": "https://m.media-amazon.com/images/I/717JX3femML._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Latest smartphone with advanced features, including a high-resolution camera and fast processor.",
+        "brand": "OnePlus",
+        "rating": 4.7,
+        "stock": 15
+      },
+      {
+        "id": 8,
+        "title": "Lenovo ThinkBook 15 G5",
+        "category": "Electronics",
+        "price": 37990,
+        "imageUrl": "https://m.media-amazon.com/images/I/51UoiQ-zvEL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Powerful laptop with a 15.6-inch display and robust performance, ideal for work and study.",
+        "brand": "Lenovo",
+        "rating": 4.5,
+        "stock": 10
+      },
+      {
+        "id": 9,
+        "title": "SkullCandy Wireless Earbuds",
+        "category": "Electronics",
+        "price": 2997,
+        "imageUrl": "https://m.media-amazon.com/images/I/71qdSUWFOeL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Compact wireless earbuds with excellent sound quality and noise cancellation.",
+        "brand": "SkullCandy",
+        "rating": 4.3,
+        "stock": 50
+      },
+      {
+        "id": 10,
+        "title": "Ruby Necklace",
+        "category": "Jewellery",
+        "price": 699,
+        "imageUrl": "https://m.media-amazon.com/images/I/71p9Zoiy74L._AC_UL480_FMwebp_QL65_.jpg",
+        "description": "Beautiful ruby necklace with a classic design, perfect for adding elegance to any outfit.",
+        "brand": "JewelsCo",
+        "rating": 4.6,
+        "stock": 5
+      }
+    ],
+    "cart": []
+  }
+  

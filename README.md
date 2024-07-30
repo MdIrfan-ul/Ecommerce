@@ -8,8 +8,8 @@ ___
 
 ## Live
 
-Live Link:- <a href="https://.netlify.app/" target=_blank>E-commerce</a>
-
+- Live Link:- <a href="https://ecomreactjs.netlify.app/" target=_blank>E-commerce</a>
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/4d7e909c-784e-4689-b7dd-c83e399341be/deploy-status)](https://app.netlify.com/sites/ecomreactjs/deploys)
 ___
 ## Features
 
