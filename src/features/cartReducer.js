@@ -10,7 +10,7 @@ const loadCartFromLocalStorage = () => {
             return JSON.parse(serializedCart);
         }
     } catch (err) {
-        console.error("Failed to load cart from local storage:", err);
+        console.log("Failed to load cart from local storage:", err);
     }
     return [];
 };
@@ -52,7 +52,7 @@ const cartSlice = createSlice({
                 const serializedCart = JSON.stringify(state.carts);
                 localStorage.setItem('cart', serializedCart);
             } catch (err) {
-                console.error("Failed to save cart to local storage:", err);
+                console.log("Failed to save cart to local storage:", err);
             }
         }
     },
